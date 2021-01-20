@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+
+		<div class="main-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 mx-auto">
+						<div class="signup-blk-md">
+                            <h4 class="text-center ">Education</h4>
+                            <form>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label class="small-label">School</label>
+                                        <input type="text" class="field" placeholder="Ex: Northwestern University">
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="small-label">Area of Study (Optional)</label>
+                                        <input type="text" class="field" placeholder="Ex: Computer Science">
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="small-label">Degree (Optional)</label>
+                                        <input type="text" class="field" placeholder="Ex: Bachelor's">
+                                    </div>
+                                </div>
+                                <h4 class="text-center mt-3">Dates Attended<small class="color-grey"> (Optional)</small></h4>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label class="small-label">From</label>
+                                        <select class="field">
+                                            <option>From</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="small-label">To</label>
+                                        <select class="field">
+                                            <option>Expected graduation year</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="small-label">Discribe</label>
+                                        <textarea type="text" rows="5" class="field" placeholder="Describe your study's, award, etc."></textarea>
+                                    </div>
+                                </div>
+                                <a href="#" class="orange-bt btn-submit" data-toggle="modal" data-target="#myModal">Submit</a>
+                            </form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content w-100" style="border-radius: 36px;">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="modal-left-img">
+                    <img src="images/Rectangle 150.png" width="100%" >
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="modal-left-img">
+                    <div class="text-center py-4">
+                        <img src="images/Group 441.svg">
+                    </div>
+                    <div>
+                        <h5>All Done!</h5>
+                        <p>
+                            Thermal paper is firmly established in many areas of daily life:<br> checkout receipts and price
+                        </p>
+                    </div>
+                    <div class="mt-5">
+                        <h5>Be a successful ReadyMinds Seller</h5>
+                        <p>Thermal paper is firmly established in many areas of daily life:<br> checkout receipts and price</p>
+                    </div>
+                    <div class="text-right mt-5 mr-4">
+                        <a class="color-darkgrey mt-1 mr-3" data-dismiss="modal" href="#">Not Now</a>
+                        <a class="orange-bt btn-gig mt-1" href="#">Publish your GIG</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
