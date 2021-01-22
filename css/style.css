@@ -64,7 +64,7 @@ img{
     display: flex;
     align-items: center;
     margin: 15px -15px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
 }
 .or span {
@@ -336,7 +336,7 @@ img{
     top: 5px;
     color: #0B7B99;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 13px;
 }
 .search-field input {
     border: 1px solid #0B7B99;
@@ -464,14 +464,14 @@ img{
 label {
     color: #04030D;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
 }
 .field {
     min-height: 40px;
 }
 .available-week ul li {
     color: #04030D;
-    font-size: 14px;
+    font-size: 13px;
     display: flex;
     justify-content: space-between;
 }
@@ -728,7 +728,7 @@ label {
 }
 .small-text-14 {
     color: #04030D;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
 }
 .small-text-12 {
