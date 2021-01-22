@@ -288,13 +288,13 @@ img{
 }
 .pr-more-detail h2,
 .pr-info h2 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     padding: 0 0 0 18px;
 }
 .pr-more-detail h3,
 .pr-info h3 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 }
 .pr-more-detail h2 {
@@ -304,7 +304,7 @@ img{
     margin: 10px -24px;
 }
 .pr-info ul li a {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     color: #BEBEBE;
     display: block;
