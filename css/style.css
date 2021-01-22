@@ -325,7 +325,7 @@ img{
     border-right-color: #0B7B99;
 }
 .pr-info ul li.selected a {
-    color: red;
+    color: #0B7B99;
 }
 .search-field {
     position: relative;
