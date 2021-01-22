@@ -7,7 +7,7 @@ salman702192338368*/
 body{
 	font-family: 'Roboto', sans-serif;
     background-color: #F8F8F8;
-    font-size: 14px;
+    font-size: 13px;
 }
 ul{
 	padding: 0;
@@ -136,7 +136,7 @@ img{
     padding: 15px 0;
     text-align: center;
     color: #0B7B99;
-    font-size: 12px;
+    font-size: 11px;
 }
 .footer p {
     border-bottom: 1px solid #0B7B99;
@@ -288,7 +288,7 @@ img{
 }
 .pr-more-detail h2,
 .pr-info h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     padding: 0 0 0 18px;
 }
@@ -353,7 +353,7 @@ img{
     display: flex;
     align-items: center;
     padding: 2px 0;
-    font-size: 12px;
+    font-size: 11px;
     color: #04030D;
 }
 .search-ex li img {
@@ -383,7 +383,7 @@ img{
     border-radius: 5px;
     display: inline-flex;
     color: #000;
-    font-size: 12px;
+    font-size: 11px;
     padding: 4px 8px;
     text-decoration: none !important;
     margin-right: 5px;
@@ -393,7 +393,7 @@ img{
     margin-left: 6px;
 }
 .pr-more-detail ul li label {
-    font-size: 12px;
+    font-size: 11px;
 }
 .border-left-gray {
     position: relative;
@@ -422,7 +422,7 @@ img{
     display: inline-block;
     text-align: center;
     padding: 25px 10px;
-    font-size: 12px;
+    font-size: 11px;
     margin-top: 20px;
     min-width: 110px;
     border-bottom: 5px solid transparent;
@@ -480,7 +480,7 @@ label {
 }
 .time-field {
     max-width: 50px;
-    font-size: 12px;
+    font-size: 11px;
 }
 .border-left-gray-1 {
     border-left: 1px solid #707070;
@@ -699,7 +699,7 @@ label {
     align-items: center;
 }
 .box-user p {
-    font-size: 12px;
+    font-size: 11px;
 }
 .box-user span {
     height: 36px;width: 36px;
@@ -733,7 +733,7 @@ label {
 }
 .small-text-12 {
     color: #04030D;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 400;
 }
 .line-container { 
