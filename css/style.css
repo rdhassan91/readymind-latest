@@ -755,6 +755,11 @@ label {
     font-size: 13px;
     font-weight: 400;
 }
+.small-text-16 {
+    color: #04030D;
+    font-size: 16px;
+    font-weight: 400;
+}
 .small-text-12 {
     color: #04030D;
     font-size: 11px;
