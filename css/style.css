@@ -125,6 +125,30 @@ img{
     background-color: transparent;
     color: #FF690F;
 }
+.blue-bt {
+    background-color: #0B7B99;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0B7B99;
+    transition: all 0.2s ease-in-out;
+}
+.blue-bt:hover {
+    text-decoration: none;
+    background-color: #038eb3;
+    color: #fff;
+}
+.blue-outline-bt {
+    border: 2px solid #0B7B99;
+    background-color: transparent;
+    color: #0B7B99;
+}
 .already-text {
     text-align: center;
 }
