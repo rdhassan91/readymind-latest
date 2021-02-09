@@ -1002,6 +1002,9 @@ label {
     border-bottom: 6px solid transparent;
     text-align: center;
 }
+.project-type li:last-child {
+    margin-right: 0px;
+}
 .project-type li a  {
     display: block;
     padding: 16px 0;
@@ -1039,6 +1042,9 @@ label {
     border-bottom: 6px solid transparent;
     text-align: center;
 }
+.custom-list-page li:last-child {
+    margin-right: 0px;
+}
 .custom-list-page li a {
     display: block;
     padding: 16px 0;
@@ -1069,7 +1075,16 @@ label {
 
 
 
-
+@media only screen and (max-width: 512px) {
+    .project-type li a ,
+    .custom-list-page li a {
+        padding: 10px 0;
+    }
+    .project-type li ,
+    .custom-list-page li {
+        padding: 10px 9px 6px 9px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .border-left-custom {
