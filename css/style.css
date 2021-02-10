@@ -513,7 +513,6 @@ img{
 
 
 /*page-3*/
-custom-list-page
 .payment-card {
     display: flex;
 }
@@ -1067,7 +1066,42 @@ label {
 
 
 
+.custom-list-page-quantity {
+    display: flex;
+}
+.custom-list-page-quantity li {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #8080807F;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px 15px 11px 15px;
+    margin-right: 30px;
+    margin-top: 10px;
+    border-bottom: 6px solid transparent;
+    text-align: center;
+}
+.custom-list-page-quantity li:last-child {
+    margin-right: 0px;
+}
+.custom-list-page-quantity li span {
+    display: block;
+    padding: 16px 0;
+    color: #BEBEBE;
 
+}
+.custom-list-page-quantity li p {
+    color: #BEBEBE;
+}
+.custom-list-page-quantity li.active span {
+    color: #0B7B99;
+}
+.custom-list-page-quantity li.active p {
+    color: #04030D;
+}
+.custom-list-page-quantity li.active {
+    border-bottom-color: #FF690F;
+    box-shadow: 0px 0px 6px #FF5C267F;
+}
 
 
 
