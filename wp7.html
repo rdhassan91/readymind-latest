@@ -205,6 +205,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
 						<div class="p-4">
@@ -213,11 +214,8 @@
 								</div>
 								<div class="col-md-6">
 									<div class="row">
-										<div class="col-md-4">
-											<a href="#" class="blue-bt blue-outline-bt mb-2">Back</a>
-										</div>
-										<div class="col-md-4">
-											<a href="#" class="orange-bt mb-2">Next</a>
+										<div class="col-md-8">
+											<a href="#" data-toggle="modal" data-target="#myModal" class="orange-bt mb-2">Publish Your Project</a>
 										</div>
 									</div>
 								</div>
@@ -242,3 +240,67 @@
 		<script src="js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content w-100" style="border-radius: 36px;">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="modal-left-img">
+                    <img src="images/Rectangle 150.png" width="100%" height="100%" >
+                </div>
+            </div>
+            <div class="col-md-7  ">
+                <div class="modal-left-img pl-3 pr-3">
+                    <div class="text-center py-4">
+                        <img src="images/Group 441.svg">
+                    </div>
+                    <div>
+                        <h4 class="text-center color-theme">Woohoo! {project_name} is LIVE!</h4>
+                        <div class="form-group field-modal">
+                            <input type="text" class="field pl-4" value="https://xd.adobe.com/view">
+                            <span class="fa fa-paperclip attachment"> </span>
+                        </div>
+                        <ul class="social-media-modal">
+                            <li>
+                                <span class="social-icon linkdin-color">
+                                    <img src="images/Icon awesome-linkedin.svg">
+                                </span>
+                            </li>
+                            <li>
+                                <span class="social-icon facebook-color">
+                                    <img src="images/Icon awesome-facebook-f.svg">
+                                </span>
+                            </li>
+                            <li>
+                                <span class="social-icon email-color">
+                                    <img src="images/Icon material-email.svg">
+                                </span>
+                            </li>
+                            <li>
+                                <span class="social-icon phone-color">
+                                    <img src="images/Icon awesome-phone-alt.svg">
+                                </span>
+                            </li>
+                            <li>
+                                <span class="social-icon twitter-color">
+                                    <img src="images/Icon awesome-twitter.svg">
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-lg-5 mt-md-3 mt-3">
+                        <h5>What happens next?</h5>
+                        <p class="small-text-12">ReadyMinds commonly finds experts to support your project within just a few business days. Keep an eye on your dashboard to check the status. If you'd prefer to choose your expert now from our marketplace or build a team to support your project you can do that now by clicking on below.</p>
+                    </div>
+                    <div class="text-right mt-lg-5 mt-md-3 mt-3 mb-3">
+                        <a class="color-darkgrey mt-1 mr-3" data-dismiss="modal" href="#">Not Now</a>
+                        <a class="orange-bt btn-gig mt-1" href="#">Choose Your Expert Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>

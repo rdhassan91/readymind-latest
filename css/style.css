@@ -1136,9 +1136,30 @@ label {
     width: 45px;
     text-align: right;
 }
-
-
-
+.attachment {
+    position: absolute;
+    left: 5px;
+    top:12px;
+    font-size: 16px;
+    color: #BEBEBE;
+}
+.field-modal {
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.social-media-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-modal li {
+   display: inline-flex;
+   margin: 0 2px;
+}
+.modal-lg {
+    max-width: 900px;
+}
 
 
 
