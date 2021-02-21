@@ -1264,6 +1264,11 @@ label {
   .slider-labels {
     margin-top: 10px;
   }
+  
+  /* Functional styling;
+   * These styles are required for noUiSlider to function.
+   * You don't need to change these rules to apply your design.
+   */
   .noUi-target,.noUi-target * {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -1275,10 +1280,12 @@ label {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+  
   .noUi-target {
     position: relative;
     direction: ltr;
   }
+  
   .noUi-base {
     width: 100%;
     height: 100%;
@@ -1286,6 +1293,7 @@ label {
     z-index: 1;
   /* Fix 401 */
   }
+  
   .noUi-origin {
     position: absolute;
     right: 0;
@@ -1293,27 +1301,41 @@ label {
     left: 0;
     bottom: 0;
   }
+  
   .noUi-handle {
     position: relative;
     z-index: 1;
   }
+  
   .noUi-stacking .noUi-handle {
+  /* This class is applied to the lower origin when
+     its values is > 50%. */
     z-index: 10;
   }
+  
   .noUi-state-tap .noUi-origin {
     -webkit-transition: left 0.3s,top .3s;
     transition: left 0.3s,top .3s;
   }
+  
   .noUi-state-drag * {
     cursor: inherit !important;
   }
+  
+  /* Painting and performance;
+   * Browsers can paint handles in their own layer.
+   */
   .noUi-base,.noUi-handle {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
+  
+  /* Slider size and handle placement;
+   */
   .noUi-horizontal {
     height: 4px;
   }
+  
   .noUi-horizontal .noUi-handle {
     width: 18px;
     height: 18px;
@@ -1322,19 +1344,25 @@ label {
     top: -7px;
     background-color: #0B7B99;
   }
+  
+  /* Styling;
+   */
   .noUi-background {
     background:#808080;
   }
+  
   .noUi-connect {
     background: #0B7B99;
     -webkit-transition: background 450ms;
     transition: background 450ms;
   }
+  
   .noUi-origin {
-    border-radius: 2px;
+    border-radius: 1px;
   }
+  
   .noUi-target {
-    border-radius: 2px;
+    border-radius: 1px;
   }
   
   
@@ -1375,7 +1403,7 @@ label {
   }
 
 /* ////////////////////////////////////////////////
-    .............Two Way Slider..................
+.............Two Way Slider..................
 ////////////////////////////////////////////////// */
 
 
