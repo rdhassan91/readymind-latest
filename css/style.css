@@ -2112,3 +2112,16 @@ label {
   .flex-smm-wrap {
     flex-wrap: nowrap ;
 }
+
+.custom-pagination {
+    justify-content: center;
+}
+.custom-pagination li a {
+    color: #04030D;
+    border:0;
+    background-color: transparent;
+}
+.custom-pagination li a:hover {
+    color: #0B7B99;
+    background-color: transparent;
+}
